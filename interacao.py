@@ -57,7 +57,7 @@ def pergunta_exibe_tabuleiro(nome_jogador_1, tabuleiro_1, nome_jogador_2, tabule
     if resposta == 'S':
         print(f'\n~~~~~~~~~ Tabuleiro de {nome_jogador_1} ~~~~~~~~~')
         exibe_tabuleiro(tabuleiro_1)
-        print(f'\n~~~~~~~~~ Tabuleiro de {nome_jogador_1} ~~~~~~~~~')
+        print(f'\n~~~~~~~~~ Tabuleiro de {nome_jogador_2} ~~~~~~~~~')
         exibe_tabuleiro(tabuleiro_2)
 
 def gera_espelho_tabuleiro(tabuleiro):
